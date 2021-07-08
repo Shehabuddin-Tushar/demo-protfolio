@@ -1,0 +1,163 @@
+/*
+
+Theme name:free bangla web
+Theme uri:http://free bangla web.com
+Author name:tushar
+Author uri:http://free bangla web.com
+version:1.0
+description:it is a semple wordpress theme
+tags:semple theme,news theme,tutorial theme,blog theme
+textdomain:personal
+
+
+
+*/
+
+
+
+
+
+
+
+
+body{ font-family:Tahoma, Geneva, sans-serif; background:url(images/bg.png) no-repeat 0 0/ 100% 100% scroll  #000;}
+a,a:active,a:focus,a:hover{ text-decoration:none;}
+a:focus{outline:none;}
+ul{ margin:0; padding:0; list-style:none;}
+.column{ width:980px; margin:45px auto; display:block;padding:20px; background:#fff;}
+.header-main{ margin-bottom:10px;}
+.logo{width:310px; outline:none;}
+.body_bg{ background:url(images/body_bg.png);}
+.body_bg div{ overflow:hidden;}
+.floatleft{ float:left}
+.floatright{ float:right;}
+.header-menu{ width:380px; margin-top:25px;}
+.header-menu ul{}
+.header-menu ul li{ float:left;   border-right:1px solid #151414; }
+.header-menu ul li a{display:block; padding:0px 10px; font-size:14px; color:#E01014; }
+.header-menu ul li a:hover{}
+.header-menu ul li a:focus{ outline:none;}
+.header-menu ul li:last-child{ border-right:0px solid #000;}
+.header_right{ width:250px}
+.news_search{ margin-top:10px;}
+.news_search input[type="text"]{ border:1px solid #000; border-right:0px solid #000; float:left; height:28px; padding:5px;}
+.news_search input[type=submit]{ background:url(images/search.jpg) no-repeat scroll center center; height:28px; width:32px; border:none; text-indent:-999999px;}
+
+.mainmenu{ background:#000; min-height:45px; margin-bottom:5px;}
+.mainmenu .current-menu-item{ background:#DD060A;}
+.mainmenu ul{}
+.mainmenu ul li{ float:left}
+.mainmenu ul li a{ display:block; padding:12px 25px; color:#fff; font-size:16px; font-weight:bold;}
+.mainmenu ul li a:hover{ background:#ED0A0E;}
+.mainmenu ul li a:focus{ outline:none;}
+div.mobile_menu_area{ display:none;}
+.slicknav_menu{ display:none;}
+
+
+
+
+
+
+
+
+
+
+.slider{ margin-bottom:2px; }
+.left-slider{ width:670px; margin-right:20px;height:350px;}
+.right-inspiration{ width:250px; background:#E4E4E4;}
+.single_inspiration_right{ padding:2px 10px 2px 10px;}
+.single_inspiration_right img{ float:left;margin-right:15px; width:60px; height:42px;}
+.single_inspiration_right h3{ font-size:12px; font-family:arial;}
+.single_inspiration_right h3 a{ color:#202021;}
+.single_inspiration_right h3 a:hover{ color:#F00;}
+..single_video_right h3 a{ color:#202021;}
+.single_inspiration_right h2{ color:#F00; font-family:josefin-sans; text-align:center;}
+
+
+
+
+.left_content{ width:670px; margin-right:20px;position:relative;}
+.latest_form_catagory{ width:670px;}
+.latest_form_catagory  h2.latest_form_cat_title,.gellary_left h2,.tech_cat_title {font-size:20px; border-bottom:3px solid #F00; text-transform:uppercase; font-weight:bold;}
+.single_cat_post{ width:130px; font-family:arial; font-size:12px;}
+.single_cat_post h3{ font-family:arial; font-size:14px; font-weight:bold; width:120px}
+.single_cat_post p{ width:115px; text-align:justify;}
+.single_cat_post img{ width:125px; height:99px;}
+.gellary_content img{ width:125px; height:99px; margin-bottom:4px; margin-left:2px;}
+.single_tech_cat{width:211px; border-bottom:1px dotted #2e2e2e; margin-bottom:20px; padding-bottom:5px; margin-left:10px;}
+.single_tech_cat p{ text-align:justify;}
+.single_tech_cat a{ color:#000;}
+.single_tech_cat h3{ font-size:15px; font-weight:bold; font-family:arial; margin:0;}
+.single_tech_cat .post_meta{ font-size:11px; margin-top:-10px;}
+.blank_line{ position:absolute; background:#fff; height:5px; width:100%; bottom:18px;; left:0; z-index:999;}
+
+.sidebar{ width:250px; margin-bottom:40px;}
+.content img{ width:250px;}
+.sidebar-title  h3{ border-bottom:3px solid #F00; font-family:arial; font-weight:bold; font-size:16px;text-transform:uppercase;}
+.content ul{ font-size:14px; list-style-type:circle; margin-left:20px;}
+.content ul li a{ color:#000;}
+
+
+
+.maincontent_bottom{ text-align:center; border-bottom:1px dashed #000000; border-top:1px dashed #000000; padding:10px 10px;}
+
+.footermenu{ text-align:center; margin:25px 0;}
+.footermenu li{ display:inline;}
+.footermenu li a{ display:inline-block; padding:0 12px; color:#000000; border-right:1px solid #000000;}
+.copyright_text{ text-align:center; font-size:12px;}
+.maincontent_bottom .content2 h2.widgettitle{ display:none;}
+
+
+
+
+
+.single_form_catagory{ margin-bottom:30px;}
+
+.single_form_catagory  h2.single_form_cat_title {font-size:20px; border-bottom:3px solid #F00; text-transform:uppercase; font-weight:bold;}
+.single_form_catagory img{ height:200px; width:300px; float:left; margin-right:10px; margin-bottom:3px;}
+.single_form_catagory p{ float:right; text-align:justify;}
+
+
+.comments-box{ width:630px;}	
+.comments-box input[type="text"],input[type="email"],input[type="url"]
+{ 
+   width:400px;
+   border:1px solid #999;
+   height:45px;
+   
+  
+}
+
+textarea{ width:630px; height:200px; border:1px solid #999;}
+
+.comments-box input[type="submit"]{ float:right; padding:10px 15px; border:none; background-color:#C0EC1F; color:#000000; font-weight:bold; margin-top:5px; margin-bottom:30px;}
+
+
+
+
+#pagi{ padding: 20px 0px;list-style: none;width:250px;}
+#pagi a {float: left;margin-right: 10px;}
+#pagi a {display: block;	text-decoration: none; color: #717171;font: bold 16px Arial, sans-serif;padding: 7px; background: #000;}
+#pagi span.current, #pagi a:hover {color: #ffffff;	background: #ED145B;}
+#pagi span{
+         padding:7px;
+		 float:left;
+		 margin-right:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gellery{ width:200px; height:100%; background-color:#E4C2C2; float:left; margin-left:15px; margin-bottom:15px;}
+.gellery img{ height:100px; width:160px; margin-left:20px; margin-top:20px;}
+.gellery h2{  font-size:25px;margin-left:18px;}

@@ -1,0 +1,219 @@
+/*tablet layout:768px.*/
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	
+.column{ width:750px;}
+.logo{width:310px; }	
+.header-menu{display:none;}		
+.mainmenu ul li a{ display:block; padding:14px 20px; color:#fff; font-size:12px; font-weight:bold;}		
+.left-slider{ width:450px; margin-right:5px;}
+.slider{ margin-bottom:-120px; }	
+.right-inspiration{ width:255px; background:#E4E4E4;}
+.single_inspiration_right{ padding:0px 2px 0px 5px;}
+.single_inspiration_right h3{ font-size:10px; font-family:arial;}
+.single_inspiration_right img{ float:left;margin-right:15px; width:40px; height:30px; margin-top:-3px; }
+.single_inspiration_right h2{ color:#F00; font-family:josefin-sans; text-align:center; font-size:14px; margin-bottom:-1px; margin-top:-1px;}
+
+
+.left_content{ width:445px; margin-right:10px;}
+.single_cat_post{ width:90px; font-family:arial; font-size:12px;}
+.single_cat_post h3{ font-family:arial; font-size:12px; font-weight:bold; width:80px;}
+.single_cat_post p{ font-family:arial; font-size:10px; font-weight:bold; width:80px; text-align:justify;}
+.single_cat_post img{ width:80px; height:70px;}
+.gellary_content img{ width:80px; height:70px; margin-bottom:4px; margin-left:2px;}
+
+.content img{ width:250px;}
+
+
+
+.maincontent_bottom{ text-align:center; border-bottom:1px dashed #000000; border-top:1px dashed #000000; padding:10px 10px;}
+.maincontent_bottom img{ width:620px;}
+.copyright_text{ text-align:center; font-size:12px;}
+
+
+.comments-box{ width:450px;}	
+.comments-box input[type="text"],input[type="email"],input[type="url"]
+{ 
+   width:300px;
+   border:1px solid #999;
+   height:35px;
+   
+  
+}
+textarea{ width:430px; height:180px; border:1px solid #999;}
+.comments-box input[type="submit"]{  margin-right:20px;}
+.slicknav_menu{ display:none;}
+
+
+#pagi{ padding: 20px 0px;list-style: none;width:250px;}
+#pagi a {float: left;margin-right: 10px;}
+#pagi a {display: block;	text-decoration: none; color: #717171;font: bold 16px Arial, sans-serif;padding: 7px; background: #000;}
+#pagi span.current, #pagi a:hover {color: #ffffff;	background: #ED145B;}
+#pagi span{
+         padding:7px;
+		 float:left;
+		 margin-right:10px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/*mobile layout:768px.*/
+
+@media only screen and (max-width: 767px){
+.column{ width:300px;}
+.logo{ width:260px; float:none; text-align:center}	
+.header-menu{ width:280px; margin-bottom:20px; margin-top:20px;}	
+.header-menu ul li a{display:block; padding:0px 10px; font-size:14px; color:#E01014; }
+div.mobile_menu_area{ display:block;}	
+ul#nav{ display:none;}
+ul#mobile_menu li{ border-bottom:3px solid red; width:260px;}
+ul#mobile_menu li a{ color:#999; font-size:14px;}
+ul#mobile_menu li a:hover{ color:#fff;}
+ul#mobile_menu li a:focus{ outline:none;}
+
+.left-slider{ width:260px;}
+.right-inspiration{ width:260px;margin-top:-210px;}	
+.left_content{ width:260px;}
+.latest_form_catagory{ width:260px;}
+.single_cat_post{ width:130px; font-family:arial; font-size:12px; float:left}
+.single_cat_post p{ width:120px; text-align:justify;}
+.single_cat_post h3{ width:120px;}
+.single_tech_cat{width:190px; border-bottom:1px dotted #2e2e2e; margin-bottom:20px; padding-bottom:5px;}
+.sidebar{ width:260px; margin-bottom:40px;}
+.content img{ width:250px;}
+.maincontent_bottom img{ width:250px; margin-left:-5px;}
+.footermenu li a{ font-size:10px; padding:0 5px;}
+.footer p.copyright_text{ text-align:center; font-size:10px;}
+.single_form_catagory article p{ width:260px; margin-left:10px;}
+.comments-box{ width:260px;}
+.comments-box input[type="text"],input[type="email"],input[type="url"]
+{ 
+   width:205px;
+   border:1px solid #999;
+   height:35px;
+   
+  
+}
+textarea{ width:260px; height:180px; border:1px solid #999;}
+.gellery{ width:260px; height:100%; background-color:#E4C2C2; float:left; margin-bottom:15px; margin-left:-10px;}
+.gellery img{ height:150px; width:210px; margin-left:30px; margin-top:20px;}
+.gellery h2{  font-size:25px;margin-left:28px; width:205px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*wide mobile layout:480px.*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	
+	
+.column{ width:450px;}
+.logo{ width:410px; float:none; text-align:center}		
+.header-menu{ width:410px; margin-bottom:20px; margin-top:20px; margin-left:30px;}	
+.header-menu ul li a{display:block; padding:0px 13px; font-size:14px; color:#E01014; }	
+.header_right{ width:298px;}	
+ul#nav{ display:none;}	
+
+
+
+
+
+div.mobile_menu_area{ display:block;}
+ul#mobile_menu{}
+ul#mobile_menu li{ border-bottom:3px solid red; width:410px;}
+ul#mobile_menu li a{ color:#999; font-size:14px;}
+ul#mobile_menu li a:hover{ color:#fff;}
+ul#mobile_menu li a:focus{ outline:none;}
+ul#mobile_menu li ul{}
+.left-slider{ width:410px;}	
+.right-inspiration{ width:410px;margin-top:-140px;}	
+.single_inspiration_right h3{ font-size:14px; font-family:arial;}	
+.single_inspiration_right img{ float:left;margin-right:15px; width:80px; height:50px;}	
+	
+.left_content{ width:410px;}	
+.latest_form_catagory{ width:410px;}
+.single_cat_post{ width:82px; font-family:arial; font-size:12px;}
+.single_cat_post h3{ font-family:arial; font-size:10px; font-weight:bold; width:72px;}
+.single_cat_post p{ font-family:arial; font-size:10px; width:72px; text-align:justify;}
+.single_cat_post img{ width:70px; height:60px;}	
+.gellary_content img{ width:75px; height:60px; margin-bottom:4px; margin-left:2px;}	
+.single_tech_cat{width:190px; border-bottom:1px dotted #2e2e2e; margin-bottom:20px; padding-bottom:5px; margin-left:10px;}	
+.sidebar{ width:410px; margin-bottom:40px;}
+.sidebar-title  h3{ width:255px;}
+.maincontent_bottom img{ width:400px; margin-left:-5px;}	
+.footermenu li a{ font-size:10px; padding:0 5px;}
+.footer p.copyright_text{ text-align:center; font-size:10px;}	
+.single_form_catagory article p{ width:410px;}
+.comments-box{ width:410px;}
+.comments-box input[type="text"],input[type="email"],input[type="url"]
+{ 
+   width:300px;
+   border:1px solid #999;
+   height:35px;
+   
+  
+}
+textarea{ width:410px; height:180px; border:1px solid #999;}
+
+.gellery{ width:410px; height:100%; background-color:#E4C2C2; float:left; margin-bottom:15px; margin-left:-10px;}
+.gellery img{ height:150px; width:360px; margin-left:30px; margin-top:20px;}
+.gellery h2{  font-size:25px;margin-left:28px; width:350px;}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
